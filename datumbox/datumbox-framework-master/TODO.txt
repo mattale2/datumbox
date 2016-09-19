@@ -1,0 +1,59 @@
+CODE IMPROVEMENTS
+=================
+
+- Support MapDB 3.0 once a stable version is released. Remove the HOTFIX for MapDB bug #664.
+
+
+NEW FEATURES
+============
+
+- Create a storage engine for BerkeleyDB.
+- Add the ability to call Machine Learning algorithms from command line like in Mahout.
+
+
+DOCUMENTATION
+=============
+
+- Improve the code documentation.
+- Write How-to blog posts on building Text Classification models.
+
+
+NEW ALGORITHMS
+==============
+
+- Rewrite PCA to avoid using RealMatrix.
+- Speed up LDA: http://www.cs.ucsb.edu/~mingjia/cs240/doc/273811.pdf
+- Write a Mixture of Gaussians clustering method.
+- Develop the FunkSVD and PLSI as probabilistic version of SVD.
+- Collaborative Filtering for Implicit Feedback Datasets: http://yifanhu.net/PUB/cf.pdf
+- Include an anomaly detection algorithm.
+- Add the ability to search through the configuration space and find the best performing algorithmic configuration.
+
+
+TO CHECK OUT
+============
+
+Linear Algebra
+--------------
+
+- JBLAS - Linear Algebra for Java:
+	https://github.com/mikiobraun/jblas
+	http://jblas.org/
+
+Huge Collection libs, DBs and Storage
+-------------------------------------
+
+- Vanilla-java - HugeCollections:
+    https://code.google.com/p/vanilla-java/wiki/HugeCollections
+
+- Fastutil:
+    http://fastutil.di.unimi.it/#install
+
+- Joafip:
+    http://joafip.sourceforge.net/javadoc/net/sf/joafip/java/util/PHashMap.html
+
+- Chronicle Map:
+    https://github.com/OpenHFT/Chronicle-Map/
+
+- H2 Database:
+    http://www.h2database.com/html/main.html
