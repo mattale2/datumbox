@@ -1,0 +1,14 @@
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+target/
+/.settings/
+/.idea/
+.classpath
+.project
+nbactions.xml
+nb-configuration.xml
+build-datumbox-framework.sh
